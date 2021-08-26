@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: Karla, Arial, Helvetica, sans-serif;
+    background-color: #FBFBF3;
+    color: #363B2F;
+}
+
+/* Nav */
+/* .nav {
+    background-color: aqua;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+} */
+
+.nav {
+    width: auto;
+    height: auto;
+    padding: 0 40px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align: right;
+    z-index: 10;
+
+    margin-top: 40px;
+
+}
+
+.navigation:hover {
+    font-weight: 900;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Welcome */
+.welcome {
+    background-color: #ECEBE1;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 305px 0 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #363B2F;
+}
+
+p {
+    margin-block-end: 0;
+}
+
+img {
+    width: 30%;
+    height: auto;
+}
+
+.display {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.displaypic {
+    box-shadow: 5px 10px 20px #888888;
+
+}
+
+.displaypic , .aboutpic {
+    width: 80%;
+    height: auto;
+    margin-left: 200px;
+}
+
+/* Projects */
+.project-tile {
+    padding-top: 60px;
+
+}
+
+.project {
+    padding: 0 0 60px 0;
+}
+
+.project-ui-top {
+    padding: 60px 0 0 0;
+}
+
+.projects {
+    padding-inline-start: 0;
+}
+
+.display-small {
+    font-size: 2rem;
+}
+
+.display-description {
+    font-size: 1rem;
+    width: 50%;
+}
+
+.project-list {
+    margin: 30px 0 0 0;
+}
+
+.ui-container {
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.textlink {
+    font-weight: 900;
+}
+
+/* About */
+.about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 305px 0 100px;
+}
+
+
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px 20px 100px;
+    margin-top: 20px;
+}
+
+.link:hover {
+    color: #C0BCAC;
+}
+
+.social {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 730px) {
+    .container {
+        padding: 0 100px 0 50px;
+    }
+
+}
